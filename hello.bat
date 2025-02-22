@@ -1,2 +1,4 @@
-@echo hello
-pause
+@echo off
+setlocal
+set "url = "
+exit
