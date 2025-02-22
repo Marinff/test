@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set "url = https://github.com/Marinff/test/blob/main/1.py"
+set "url=https://github.com/Marinff/test/blob/main/1.py"
 set "tempdir = %temp%"
 set "output = %tempdir%\1.py"
 :download
